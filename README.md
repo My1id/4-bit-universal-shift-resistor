@@ -10,22 +10,23 @@ serial-in-serial-out shift register(SISO), parallel-in-parallel-out
 shift register(PIPO), parallel-in-serial-out shift register(PISO).</p>
 
 # Reference block diagram
-<img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/Screenshot%20(32).png"  />
-<p>
-The mode of operation of the Universal Shift Register is
-chosen via the circuit choose pins. It moves the data to the
-left or right and saves it in the register. The Flip-Flop is wired
-with the CLK and Clear pins. M0, M1, M2, M3 are the parallel
-inputs, whereas F0, F1, F2, F3 are the parallel outputs. When
-the input pin is active HIGH, the Universal Shift Register
-loads/reads data in parallel. The input pin is directly connected
-to 41 MUX in this scenario. The global shift register moves
-the data when the input pin (mode) is active LOW. The input
-pin is connected to the 4x1 MUX via a NOT gate in this
-scenario. The universal shift register becomes a bi-directional
-shift register when the input pin (mode) is linked to GND
-(Ground).
-</p>
+<img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/Screenshot%20(32).png"  /> 
+## Crcuit details
+    <p>
+        The mode of operation of the Universal Shift Register is
+        chosen via the circuit choose pins. It moves the data to the
+        left or right and saves it in the register. The Flip-Flop is wired
+        with the CLK and Clear pins. M0, M1, M2, M3 are the parallel
+        inputs, whereas F0, F1, F2, F3 are the parallel outputs. When
+        the input pin is active HIGH, the Universal Shift Register
+        loads/reads data in parallel. The input pin is directly connected
+        to 41 MUX in this scenario. The global shift register moves
+        the data when the input pin (mode) is active LOW. The input
+        pin is connected to the 4x1 MUX via a NOT gate in this
+        scenario. The universal shift register becomes a bi-directional
+        shift register when the input pin (mode) is linked to GND
+        (Ground).
+    </p>
 
 # Tools used 
 <p>
@@ -39,10 +40,22 @@ shift register when the input pin (mode) is linked to GND
 # Symbol
 <img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/NAND_Symbol.png" />
 
-# TB
+# Test Bench
 <img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/NOT_TB.png" />
-  
-  
+# Inverter( NOT Gate)
+
+# NAND Gate
+
+# D-Flip Flop
+
+# MUX
+
+# USR
+
+# Simulation
+<p
+   
+</p>
   
   
   
