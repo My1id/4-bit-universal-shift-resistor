@@ -143,9 +143,11 @@ shift register(PIPO), parallel-in-serial-out shift register(PISO).</p>
 You can view the circuit netlists here
 
 # Author
+<b> <a href="https://www.linkedin.com/in/rashmi-ranjan-kindal-436744210/" target="_blank" > Rashmi Ranjan Kindal, B.Tech ECE, GIET University, Gunupur</a> </b>
 
 # Acknowledgement
 
 # Reference
-
+Rashid Anwar and Jobbin Abraham Ben, A Novel Design of Reversible
+Universal Shift Register ,Vol.3,Issue.3,. IJCSMC, March 2014.
 
