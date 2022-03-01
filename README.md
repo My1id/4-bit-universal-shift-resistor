@@ -45,13 +45,16 @@ shift register(PIPO), parallel-in-serial-out shift register(PISO).</p>
 </p>
 
 # Tools used 
-<p>
-    Synopsys Custom Compiler:  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
-  Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
-  Synopsys 28nm PDK:  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above circuit design.
-</p>
+
+- Synopsys Custom Compiler:  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
+- Synopsys Primewave:  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+- Synopsys 28nm PDK:  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
 
 # Design &rarr;
+
+### Inverter (NOT Gate)
+
+<img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/NOT_Design.png" />
 
 ### NAND Gate
 
@@ -69,11 +72,11 @@ shift register(PIPO), parallel-in-serial-out shift register(PISO).</p>
 
 <img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/USR_Design.png" />
 
+# Symbol &rarr;
+
 ### Inverter (NOT Gate)
 
-<img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/NOT_Design.png" />
-
-# Symbol &rarr;
+<img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/NOT_Symbol.png" />
 
 ### NAND Gate
 
@@ -91,11 +94,11 @@ shift register(PIPO), parallel-in-serial-out shift register(PISO).</p>
 
 <img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/USR_Symbol.png" />
 
+# Test Bench &rarr;
+
 ### Inverter (NOT Gate)
 
-<img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/NOT_Symbol.png" />
-
-# Test Bench &rarr;
+<img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/NOT_TB.png" />
 
 ### NAND Gate
 
@@ -113,11 +116,11 @@ shift register(PIPO), parallel-in-serial-out shift register(PISO).</p>
 
 <img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/USR_Design_TB.png" />
 
+# Simulation &rarr;
+
 ### Inverter (NOT Gate)
 
-<img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/NOT_TB.png" />
-
-# Simulation &rarr;
+<img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/NOT_Waveform.png" />
 
 ### NAND Gate
 
@@ -135,17 +138,19 @@ shift register(PIPO), parallel-in-serial-out shift register(PISO).</p>
 
 <img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/USR_Waveform.png" />
 
-### Inverter (NOT Gate)
-
-<img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/NOT_Waveform.png" />
-
 # Netlist
 You can view the circuit netlists here
 
 # Author
-<b> <a href="https://www.linkedin.com/in/rashmi-ranjan-kindal-436744210/" target="_blank" > Rashmi Ranjan Kindal, B.Tech ECE, GIET University, Gunupur</a> </b>
+<b> <a  target="_blank" href="https://www.linkedin.com/in/rashmi-ranjan-kindal-436744210/" > Rashmi Ranjan Kindal, B.Tech ECE, GIET University, Gunupur</a> </b>
 
-# Acknowledgement
+# Acknowledgements
+
+- [Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.](https://www.linkedin.com/in/kunal-ghosh-vlsisystemdesign-com-28084836/)
+- [Synopsys Inc](https://www.synopsys.com/)
+- [IIT Hyderabad](https://iith.ac.in/)
+- [Analog IC Design Hackathon](https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/)
+- [Dr. Shasanka Sekhar Rout, GIET University](https://www.linkedin.com/in/dr-shasanka-sekhar-rout-3a572b111/)
 
 # Reference
 Rashid Anwar and Jobbin Abraham Ben, A Novel Design of Reversible
