@@ -139,7 +139,7 @@ shift register(PIPO), parallel-in-serial-out shift register(PISO).</p>
 <img src="https://github.com/My1id/4-bit-universal-shift-resistor/blob/main/Design/USR_Waveform.png" />
 
 # Netlist
-You can view the circuit netlists [here]
+You can view the circuit netlists [here](https://github.com/Rashmi-kindal/4-bit-universal-shift-resistor/tree/main/Netlist)
 
 # Author
 <b> <a  target="_blank" href="https://www.linkedin.com/in/rashmi-ranjan-kindal-436744210/" > Rashmi Ranjan Kindal, B.Tech ECE, GIET University, Gunupur</a> </b>
