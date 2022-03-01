@@ -141,6 +141,10 @@ shift register(PIPO), parallel-in-serial-out shift register(PISO).</p>
 # Netlist
 You can view the circuit netlists [here](https://github.com/Rashmi-kindal/4-bit-universal-shift-resistor/tree/main/Netlist)
 
+# Result
+
+Total transistor count = 108
+
 # Author
 <b> <a  target="_blank" href="https://www.linkedin.com/in/rashmi-ranjan-kindal-436744210/" > Rashmi Ranjan Kindal, B.Tech ECE, GIET University, Gunupur</a> </b>
 
